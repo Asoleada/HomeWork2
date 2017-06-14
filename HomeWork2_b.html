@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url("img2.jpg");
+        }
+
+        table {
+            margin: auto;
+            border-right: 1px solid deepskyblue;
+            border-bottom: 1px solid deepskyblue;
+            border-left: hidden;
+            border-top: hidden;
+        }
+
+        th    {height: 10px;
+            width: 30px;
+            background-color: rgba(233,30,30,0.68);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid deepskyblue;
+            font-weight: bold;
+            font-family: "Comic Sans MS";
+        }
+
+        td    {height: 10px;
+            width: 30px;
+            color: gray;
+            border: 1px solid deepskyblue;
+        }
+
+        table, th, td {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border-bottom: 2px solid deepskyblue;
+            padding: 15px;
+            text-align: left;
+            vertical-align: center;
+        }
+        td.yellow {
+            color: red;
+            background-color: rgba(228,255,54,0.45);
+        }
+
+    </style>
+</head>
+
+<body >
+<table>
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td class="yellow"">Lois</td>
+        <td>Griffin</td>
+        <td>$150</td>
+    </tr>
+    <tr>
+        <td>Joe</td>
+        <td class="yellow">Swanson</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td class="yellow">$250</td>
+    </tr>
+</table>
+</body>
+</html>

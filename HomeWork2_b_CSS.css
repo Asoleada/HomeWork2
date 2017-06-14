@@ -1,0 +1,43 @@
+body {
+    background-image: url("img2.jpg");
+}
+
+table {
+    margin: auto;
+    border-right: 1px solid deepskyblue;
+    border-bottom: 1px solid deepskyblue;
+    border-left: hidden;
+    border-top: hidden;
+}
+
+th    {height: 10px;
+    width: 30px;
+    background-color: rgba(233,30,30,0.68);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid deepskyblue;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+td    {height: 10px;
+    width: 30px;
+    color: gray;
+    border: 1px solid deepskyblue;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 2px solid deepskyblue;
+    padding: 15px;
+    text-align: left;
+    vertical-align: center;
+}
+td.yellow {
+    color: red;
+    background-color: rgba(228,255,54,0.45);
+}
